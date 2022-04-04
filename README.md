@@ -23,7 +23,7 @@ cmake ..
 make
 ```
 
-## 2. Mordern method
+## 2. Modern method
 This method is cleaner and more cross-platform-friendly:
 ```bash
 cmake -S . -B build
