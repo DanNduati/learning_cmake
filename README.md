@@ -26,6 +26,7 @@ make
 ## 2. Modern method
 This method is cleaner and more cross-platform-friendly:
 ```bash
+mkdir build
 cmake -S . -B build
 cmake --build build
 ```
