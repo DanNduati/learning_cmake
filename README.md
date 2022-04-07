@@ -8,13 +8,13 @@ The top-level CMakeLists.txt is the entry point of our project.There can be seve
 Example:
 ```cmake
 cmake_minimum_required(VERSION 3.22.2)
-# set the project name
+# set the project name and version
 project(cmake_learn VERSION 1.0)
 # Build 
 add_executable(${PROJECT_NAME} main.cpp)
 ```
 The first line is the version of CMake, which is required to process the file, the second is the project name and its versions.The next line specifies which binary to build and their related source files.
-## Running CMake
+## Build and Run
 ### 1. Classic method
 ```bash
 mkdir build
