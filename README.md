@@ -29,3 +29,10 @@ This method is cleaner and more cross-platform-friendly:
 cmake -S . -B build
 cmake --build build
 ```
+
+## CMake learning path
+- [x] Basics of cmake
+- [x] Build and run
+- [ ] Libraries
+- [ ] Submodules
+- [ ] Variables
