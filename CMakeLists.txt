@@ -6,4 +6,4 @@ add_subdirectory(Adder)
 # Build main
 add_executable(${PROJECT_NAME} main.cpp)
 #link the library to our executable
-target_link_libraries(${PROJECT_NAME} adder)
+target_link_libraries(${PROJECT_NAME} PUBLIC adder)
