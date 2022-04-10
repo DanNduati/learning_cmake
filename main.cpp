@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Adder/adder.h"
+#include "adder.h"
 
 int main(int argc, char** argv){
     std::cout<<"Hello cmake!\n";

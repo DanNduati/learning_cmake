@@ -5,5 +5,7 @@ project(cmake_learn VERSION 1.0)
 add_subdirectory(Adder)
 # Build main
 add_executable(${PROJECT_NAME} main.cpp)
+#include Adder directory to target
+target_include_directories(${PROJECT_NAME} PUBLIC Adder)
 #link the library to our executable
 target_link_libraries(${PROJECT_NAME} PUBLIC adder)
