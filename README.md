@@ -34,6 +34,6 @@ cmake --build build
 ## CMake learning path
 - [x] Basics of cmake
 - [x] Build and run
-- [ ] Libraries
+- [x] Libraries
 - [ ] Submodules
 - [ ] Variables
